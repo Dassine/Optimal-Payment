@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230C678317698C3100850933 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 230C678217698C3100850933 /* Icon.png */; };
+		230C678517698CC400850933 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 230C678417698CC400850933 /* icon@2x.png */; };
+		231B845517688AF10019C874 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B845417688AF10019C874 /* UIKit.framework */; };
+		231B845717688AF10019C874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B845617688AF10019C874 /* Foundation.framework */; };
+		231B845917688AF10019C874 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B845817688AF10019C874 /* CoreGraphics.framework */; };
+		231B845B17688AF10019C874 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B845A17688AF10019C874 /* CoreData.framework */; };
+		231B846117688AF10019C874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 231B845F17688AF10019C874 /* InfoPlist.strings */; };
+		231B846317688AF10019C874 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 231B846217688AF10019C874 /* main.m */; };
+		231B846717688AF10019C874 /* OPCKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 231B846617688AF10019C874 /* OPCKAppDelegate.m */; };
+		231B846917688AF10019C874 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B846817688AF10019C874 /* Default.png */; };
+		231B846B17688AF10019C874 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B846A17688AF10019C874 /* Default@2x.png */; };
+		231B846D17688AF10019C874 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B846C17688AF10019C874 /* Default-568h@2x.png */; };
+		231B847017688AF10019C874 /* OPCustomKeyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 231B846E17688AF10019C874 /* OPCustomKeyboard.xcdatamodeld */; };
+		231B847817688AF20019C874 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B847717688AF20019C874 /* SenTestingKit.framework */; };
+		231B847917688AF20019C874 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B845417688AF10019C874 /* UIKit.framework */; };
+		231B847A17688AF20019C874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B845617688AF10019C874 /* Foundation.framework */; };
+		231B847B17688AF20019C874 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B845A17688AF10019C874 /* CoreData.framework */; };
+		231B848317688AF20019C874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 231B848117688AF20019C874 /* InfoPlist.strings */; };
+		231B848617688AF20019C874 /* OPCustomKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 231B848517688AF20019C874 /* OPCustomKeyboardTests.m */; };
+		231B8491176891670019C874 /* OPCKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231B8490176891660019C874 /* OPCKViewController.m */; };
+		231B84961768EC6F0019C874 /* SeparatorLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B84941768EC6F0019C874 /* SeparatorLine.png */; };
+		231B84971768EC6F0019C874 /* SeparatorLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B84951768EC6F0019C874 /* SeparatorLine@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		231B847C17688AF20019C874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231B844917688AF10019C874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231B845017688AF10019C874;
+			remoteInfo = OPCustomKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230C678217698C3100850933 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		230C678417698CC400850933 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		231B845117688AF10019C874 /* OPCustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPCustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231B845417688AF10019C874 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		231B845617688AF10019C874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		231B845817688AF10019C874 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		231B845A17688AF10019C874 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		231B845E17688AF10019C874 /* OPCustomKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OPCustomKeyboard-Info.plist"; sourceTree = "<group>"; };
+		231B846017688AF10019C874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		231B846217688AF10019C874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		231B846417688AF10019C874 /* OPCustomKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OPCustomKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		231B846517688AF10019C874 /* OPCKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPCKAppDelegate.h; sourceTree = "<group>"; };
+		231B846617688AF10019C874 /* OPCKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPCKAppDelegate.m; sourceTree = "<group>"; };
+		231B846817688AF10019C874 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		231B846A17688AF10019C874 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		231B846C17688AF10019C874 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		231B846F17688AF10019C874 /* OPCustomKeyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OPCustomKeyboard.xcdatamodel; sourceTree = "<group>"; };
+		231B847617688AF20019C874 /* OPCustomKeyboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPCustomKeyboardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		231B847717688AF20019C874 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		231B848017688AF20019C874 /* OPCustomKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OPCustomKeyboardTests-Info.plist"; sourceTree = "<group>"; };
+		231B848217688AF20019C874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		231B848417688AF20019C874 /* OPCustomKeyboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPCustomKeyboardTests.h; sourceTree = "<group>"; };
+		231B848517688AF20019C874 /* OPCustomKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPCustomKeyboardTests.m; sourceTree = "<group>"; };
+		231B848F176891660019C874 /* OPCKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPCKViewController.h; sourceTree = "<group>"; };
+		231B8490176891660019C874 /* OPCKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPCKViewController.m; sourceTree = "<group>"; };
+		231B84941768EC6F0019C874 /* SeparatorLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SeparatorLine.png; path = OPCustomKeyboard/images/SeparatorLine.png; sourceTree = "<group>"; };
+		231B84951768EC6F0019C874 /* SeparatorLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SeparatorLine@2x.png"; path = "OPCustomKeyboard/images/SeparatorLine@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231B844E17688AF10019C874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B845517688AF10019C874 /* UIKit.framework in Frameworks */,
+				231B845717688AF10019C874 /* Foundation.framework in Frameworks */,
+				231B845917688AF10019C874 /* CoreGraphics.framework in Frameworks */,
+				231B845B17688AF10019C874 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B847217688AF20019C874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B847817688AF20019C874 /* SenTestingKit.framework in Frameworks */,
+				231B847917688AF20019C874 /* UIKit.framework in Frameworks */,
+				231B847A17688AF20019C874 /* Foundation.framework in Frameworks */,
+				231B847B17688AF20019C874 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231B844817688AF10019C874 = {
+			isa = PBXGroup;
+			children = (
+				230C678417698CC400850933 /* icon@2x.png */,
+				230C678217698C3100850933 /* Icon.png */,
+				231B845C17688AF10019C874 /* OPCustomKeyboard */,
+				231B84921768EC210019C874 /* Supporting Files */,
+				231B847E17688AF20019C874 /* OPCustomKeyboardTests */,
+				231B845317688AF10019C874 /* Frameworks */,
+				231B845217688AF10019C874 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231B845217688AF10019C874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231B845117688AF10019C874 /* OPCustomKeyboard.app */,
+				231B847617688AF20019C874 /* OPCustomKeyboardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231B845317688AF10019C874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231B845417688AF10019C874 /* UIKit.framework */,
+				231B845617688AF10019C874 /* Foundation.framework */,
+				231B845817688AF10019C874 /* CoreGraphics.framework */,
+				231B845A17688AF10019C874 /* CoreData.framework */,
+				231B847717688AF20019C874 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		231B845C17688AF10019C874 /* OPCustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				231B846517688AF10019C874 /* OPCKAppDelegate.h */,
+				231B846617688AF10019C874 /* OPCKAppDelegate.m */,
+				231B846E17688AF10019C874 /* OPCustomKeyboard.xcdatamodeld */,
+				231B845D17688AF10019C874 /* Supporting Files */,
+				231B848F176891660019C874 /* OPCKViewController.h */,
+				231B8490176891660019C874 /* OPCKViewController.m */,
+			);
+			path = OPCustomKeyboard;
+			sourceTree = "<group>";
+		};
+		231B845D17688AF10019C874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				231B845E17688AF10019C874 /* OPCustomKeyboard-Info.plist */,
+				231B845F17688AF10019C874 /* InfoPlist.strings */,
+				231B846217688AF10019C874 /* main.m */,
+				231B846417688AF10019C874 /* OPCustomKeyboard-Prefix.pch */,
+				231B846817688AF10019C874 /* Default.png */,
+				231B846A17688AF10019C874 /* Default@2x.png */,
+				231B846C17688AF10019C874 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		231B847E17688AF20019C874 /* OPCustomKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				231B848417688AF20019C874 /* OPCustomKeyboardTests.h */,
+				231B848517688AF20019C874 /* OPCustomKeyboardTests.m */,
+				231B847F17688AF20019C874 /* Supporting Files */,
+			);
+			path = OPCustomKeyboardTests;
+			sourceTree = "<group>";
+		};
+		231B847F17688AF20019C874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				231B848017688AF20019C874 /* OPCustomKeyboardTests-Info.plist */,
+				231B848117688AF20019C874 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		231B84921768EC210019C874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				231B84931768EC430019C874 /* Images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		231B84931768EC430019C874 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				231B84941768EC6F0019C874 /* SeparatorLine.png */,
+				231B84951768EC6F0019C874 /* SeparatorLine@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231B845017688AF10019C874 /* OPCustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B848917688AF20019C874 /* Build configuration list for PBXNativeTarget "OPCustomKeyboard" */;
+			buildPhases = (
+				231B844D17688AF10019C874 /* Sources */,
+				231B844E17688AF10019C874 /* Frameworks */,
+				231B844F17688AF10019C874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPCustomKeyboard;
+			productName = OPCustomKeyboard;
+			productReference = 231B845117688AF10019C874 /* OPCustomKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		231B847517688AF20019C874 /* OPCustomKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B848C17688AF20019C874 /* Build configuration list for PBXNativeTarget "OPCustomKeyboardTests" */;
+			buildPhases = (
+				231B847117688AF20019C874 /* Sources */,
+				231B847217688AF20019C874 /* Frameworks */,
+				231B847317688AF20019C874 /* Resources */,
+				231B847417688AF20019C874 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231B847D17688AF20019C874 /* PBXTargetDependency */,
+			);
+			name = OPCustomKeyboardTests;
+			productName = OPCustomKeyboardTests;
+			productReference = 231B847617688AF20019C874 /* OPCustomKeyboardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231B844917688AF10019C874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OPCK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lilia Dassine BELAID";
+			};
+			buildConfigurationList = 231B844C17688AF10019C874 /* Build configuration list for PBXProject "OPCustomKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 231B844817688AF10019C874;
+			productRefGroup = 231B845217688AF10019C874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231B845017688AF10019C874 /* OPCustomKeyboard */,
+				231B847517688AF20019C874 /* OPCustomKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231B844F17688AF10019C874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B846117688AF10019C874 /* InfoPlist.strings in Resources */,
+				231B846917688AF10019C874 /* Default.png in Resources */,
+				231B846B17688AF10019C874 /* Default@2x.png in Resources */,
+				231B846D17688AF10019C874 /* Default-568h@2x.png in Resources */,
+				231B84961768EC6F0019C874 /* SeparatorLine.png in Resources */,
+				231B84971768EC6F0019C874 /* SeparatorLine@2x.png in Resources */,
+				230C678317698C3100850933 /* Icon.png in Resources */,
+				230C678517698CC400850933 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B847317688AF20019C874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B848317688AF20019C874 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231B847417688AF20019C874 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231B844D17688AF10019C874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B846317688AF10019C874 /* main.m in Sources */,
+				231B846717688AF10019C874 /* OPCKAppDelegate.m in Sources */,
+				231B847017688AF10019C874 /* OPCustomKeyboard.xcdatamodeld in Sources */,
+				231B8491176891670019C874 /* OPCKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231B847117688AF20019C874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B848617688AF20019C874 /* OPCustomKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		231B847D17688AF20019C874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231B845017688AF10019C874 /* OPCustomKeyboard */;
+			targetProxy = 231B847C17688AF20019C874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		231B845F17688AF10019C874 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231B846017688AF10019C874 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		231B848117688AF20019C874 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231B848217688AF20019C874 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231B848717688AF20019C874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: lilia dassine BELAID (VVP9TTB3SG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4C286459-45D8-4654-9087-AA5E4455605E";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		231B848817688AF20019C874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: lilia dassine BELAID (VVP9TTB3SG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "4C286459-45D8-4654-9087-AA5E4455605E";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231B848A17688AF20019C874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: lilia dassine BELAID (VVP9TTB3SG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPCustomKeyboard/OPCustomKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "OPCustomKeyboard/OPCustomKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4C286459-45D8-4654-9087-AA5E4455605E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		231B848B17688AF20019C874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: lilia dassine BELAID (VVP9TTB3SG)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPCustomKeyboard/OPCustomKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "OPCustomKeyboard/OPCustomKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4C286459-45D8-4654-9087-AA5E4455605E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		231B848D17688AF20019C874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OPCustomKeyboard.app/OPCustomKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPCustomKeyboard/OPCustomKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "OPCustomKeyboardTests/OPCustomKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		231B848E17688AF20019C874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OPCustomKeyboard.app/OPCustomKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPCustomKeyboard/OPCustomKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "OPCustomKeyboardTests/OPCustomKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231B844C17688AF10019C874 /* Build configuration list for PBXProject "OPCustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B848717688AF20019C874 /* Debug */,
+				231B848817688AF20019C874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231B848917688AF20019C874 /* Build configuration list for PBXNativeTarget "OPCustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B848A17688AF20019C874 /* Debug */,
+				231B848B17688AF20019C874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231B848C17688AF20019C874 /* Build configuration list for PBXNativeTarget "OPCustomKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B848D17688AF20019C874 /* Debug */,
+				231B848E17688AF20019C874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		231B846E17688AF10019C874 /* OPCustomKeyboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				231B846F17688AF10019C874 /* OPCustomKeyboard.xcdatamodel */,
+			);
+			currentVersion = 231B846F17688AF10019C874 /* OPCustomKeyboard.xcdatamodel */;
+			path = OPCustomKeyboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 231B844917688AF10019C874 /* Project object */;
+}
